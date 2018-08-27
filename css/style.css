@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*navbar*/
+
+header nav {
+	background-color: #337ab7;
+}
+
+#logo {
+	width: 30px;
+}
+
+header nav form {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+/*hero*/
+
+.my-jumbotron {
+	background-image: url(../img/bck.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	height: 70vh;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.my-jumbotron-slogan {
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+}
+
+.my-jumbotron-text {
+	letter-spacing: 0.2rem;
+}
+
+.my-section-jumbotron h1 span {
+	color: #337ab7;
+}
+
+/*mission*/
+
+.my-mission-text::after,
+.my-portfolio-text:after {
+	content: '';
+	display: block;
+	border: 1px solid #337AB7;
+	width: 200px;
+	margin: 30px auto;
+}
+
+.my-mission-icon-background {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #337AB7;
+	border-radius: 50%;
+	padding: 0.4rem;
+	position: relative;
+	transition: all 0.5s ease;
+}
+
+.my-mission-icon {
+	font-size: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #337AB7;
+}
+
+.my-mission-icon-background:hover {
+	background-color: rgba(51, 122, 183, 0.2);
+}
+
+/*numbers*/
+
+.my-numbers {
+	background-color: #337AB7;
+}
+
+/*portfolio*/
+
+.my-portfolio-box {
+	position: relative;
+	max-width: 700px;
+	height: 350px;
+	background-color: #000;
+	opacity: 0.6;
+}
+
+.my-portfolio-box-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 65%;
+}
+
+.my-portfolio-box-title {
+	letter-spacing: 0.2rem;
+	margin-bottom: 1.5rem;
+}
+
+#real1,
+#real2,
+#real3,
+#real4,
+#real5 {
+	background-position: center;
+	background-size: cover;
+	margin: 5px;
+}
+
+#real1 {
+	background-image: url(../img/real_3.jpg);
+}
+
+#real2 {
+	background-image: url(../img/real_1.jpg);
+}
+
+#real3 {
+	background-image: url(../img/real_2.jpg);
+}
+
+#real4 {
+	background-image: url(../img/real_0.jpg);
+}
+
+#real5 {
+	background-image: url(../img/real_4.jpg);
+}
+
+.separator {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 50px;
+	width: 100%;
+}
+
+.separator::before,
+.separator::after {
+	content: '';
+	position: absolute;
+}
+
+.separator::before {
+	bottom: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #337ab7;
+	transform-origin: 100% 100%;
+	transform: rotate(-0.5deg);
+}
+
+.my-testimonial h2 span {
+	color: #337ab7;
+}
+
+.fa-quote-right {
+	color: #337ab7;
+}
+
+/*my price*/
+
+.my-price {
+	background-color: #337ab7;
+}
+
+.my-card-main {
+	border: 1px solid rgb(16, 21, 129);
+	transition: all 0.3s ease;
+}
+
+.my-card-main:hover {
+	transform: scale(1.05);
+	box-shadow: 10px 10px 30px 0 rgba(255, 255, 255, 0.4);
+}
+
+/*my team*/
+
+.my-team-text::after {
+	content: '';
+	display: block;
+	border: 1px solid #337AB7;
+	width: 200px;
+	margin: 30px auto;
+}
+
+.my-team-img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+
+/*my contact*/
+.my-contact-text::after {
+	content: '';
+	display: block;
+	border: 1px solid #337AB7;
+	width: 200px;
+	margin: 30px auto;
+}
+.my-contact-box {
+	max-width: 700px;
+	
+}
