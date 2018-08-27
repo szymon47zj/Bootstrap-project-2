@@ -17,12 +17,13 @@
 	<!------------>
 	<!-- header -->
 	<!------------>
+	<div id="top"></div>
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark font-weight-bold fixed-top">
 			<!--navbar-expand zmienia menu poziome w pionowe-->
-
 			<div class="container">
-				<img id="logo" class="navbar-brand rounded-circle" src="img/logo.jpg" alt="logo">
+				<a href="#top">
+					<img id="logo"  class="navbar-brand rounded-circle" src="img/logo.jpg" alt="logo"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -30,10 +31,12 @@
 				<div class="navbar-collapse" id="navbarSupportedContent">
 					<!--menu hamburger-->
 					<ul class="navbar-nav">
-						<li class="nav-item"><a href="#" class="nav-link text-uppercase mr-1">link 1</a></li>
-						<li class="nav-item"><a href="#" class="nav-link text-uppercase  mr-1">link 2</a></li>
-						<li class="nav-item"><a href="#" class="nav-link text-uppercase  mr-1">link 3</a></li>
-						<li class="nav-item"><a href="#" class="nav-link text-uppercase  mr-1">link 4</a></li>
+						<li class="nav-item"><a href="#mission" class="nav-link text-uppercase mr-1">Czym się zajmujemy</a></li>
+						<li class="nav-item"><a href="#portfolio" class="nav-link text-uppercase  mr-1">nasze realizacje</a></li>
+						<li class="nav-item"><a href="#testimonial" class="nav-link text-uppercase mr-1">opinie</a></li>
+						<li class="nav-item"><a href="#price" class="nav-link text-uppercase  mr-1">cennik</a></li>
+						<li class="nav-item"><a href="#team" class="nav-link text-uppercase  mr-1">nasz zespół</a></li>
+						<li class="nav-item"><a href="#contact" class="nav-link text-uppercase  mr-1">kontakt</a></li>
 					</ul>
 					<!--wyszukiwarka-->
 					<form class="form-inline">
@@ -61,8 +64,8 @@
 	<!--------------------->
 	<!-- section MISSION -->
 	<!--------------------->
-
-	<section class="my-section-mission">
+	<div id="mission"></div>
+	<section class="my-section-mission mt-4">
 		<div class="container">
 
 			<!--nagłówek-->
@@ -133,6 +136,7 @@
 	<!----------------------->
 	<!-- section PORTFOLIO -->
 	<!----------------------->
+	<div id="portfolio"></div>
 	<section class="my-portfolio">
 		<div class="container my-5">
 
@@ -170,7 +174,7 @@
 	<!------------------------->
 	<!-- section TESTIMONIAL -->
 	<!------------------------->
-
+	<div id="testimonial"></div>
 	<div class="my-testimonial text-center">
 		<div class="separator"></div>
 		<div class="container my-5">
@@ -187,7 +191,7 @@
 	<!---------------------->
 	<!-- section MY PRICE -->
 	<!---------------------->
-
+	<div id="price"></div>
 	<section class="my-price py-4">
 		<div class="container my-5">
 			<div class="text-center">
@@ -276,6 +280,7 @@
 	<!-- section MY TEAM -->
 	<!--------------------->
 
+	<div id="team"></div>
 	<section class="my-team">
 		<div class="container my-5">
 			<div class="text-center">
@@ -318,6 +323,7 @@
 	<!------------------------>
 
 	<div class="separator"></div>
+	<div id="contact"></div>
 	<div class="my-contact">
 		<div class="container my-5">
 			<div class="text-center">
@@ -357,7 +363,89 @@
 	<!-- FOOTER -->
 	<!------------>
 
+	<footer class="my-footer bg-dark text-white p-4 text-sm-center text-lg-left">
+		<div class="container my-4">
+			<div class="row">
+				<div class="col-md-6 col-lg-3 d-flex flex-column my-4">
+					<h4 class="text-uppercase my-footer-header">Najnowsze wpisy</h4>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-primary">Lorem ipsum dolor.</a></li>
+						<li><a href="#" class="text-primary">Lorem ipsum dolor.</a></li>
+						<li><a href="#" class="text-primary">Lorem ipsum dolor.</a></li>
+						<li><a href="#" class="text-primary">Lorem ipsum dolor.</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex flex-column my-4">
+					<h4 class="text-uppercase my-footer-header">O nas</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, voluptatibus?</p>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex flex-column my-4">
+					<h4 class="text-uppercase my-footer-header">Newsletter</h4>
+					<div class="my-footer-form">
+						<form action="" class="justify-content-center">
+							<div class="form-group">
+								<input type="email" id="email" class="form-control mb-2" placeholder="Wpisz adres e-mail">
+							</div>
+							<button class="btn btn-primary btn-sm btn-block">Zapisz się </button>
+						</form>
+					</div>
+					<div class="row my-footer-social-icon d-flex flex-wrap mt-3">
+						<div class="col-2">
+							<a href="#" class="text-primary">
+									<i class="fab fa-youtube"></i>
+								</a>
+						</div>
+						<div class="col-2">
+							<a href="#" class="text-primary">
+									<i class="fab fa-google-plus"></i>
+								</a>
+						</div>
+						<div class="col-2">
+							<a href="#" class="text-primary">
+									<i class="fab fa-facebook"></i>
+								</a>
+						</div>
+						<div class="col-2">
+							<a href="#" class="text-primary">
+									<i class="fab fa-github"></i>
+								</a>
+						</div>
+						<div class="col-2">
+							<a href="#" class="text-primary">
+									<i class="fab fa-twitter"></i>
+								</a>
+						</div>
+						<div class="col-2">
+							<a href="#" class="text-primary">
+									<i class="fab fa-instagram"></i>
+								</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex flex-column my-4">
+					<h4 class="text-uppercase my-footer-header">Kontakt</h4>
+					<ul class="list-unstyled text-sm-left">
+						<li>
+							<i class="fas fa-envelope mr-2 text-primary"></i>kontakt@kontakt.pl
+						</li>
+						<li>
+							<i class="fas fa-map-marker mr-2 text-primary"></i>ul. Mickiewicza 15, 30-123 Kraków
+						</li>
+						<li>
+							<i class="fas fa-phone mr-2 text-primary"></i>123-123-123
+						</li>
+					</ul>
+				</div>
+			</div>
 
+			<div class="row text-center border border-primary border-left-0 border-right-0">
+				<div class="col">
+					<p class="my-2">Strona zaprojektowana przez SzB</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
 
 
 
@@ -368,7 +456,7 @@
 	<!------------->
 
 	<!--jQuery, Popper, Bootstrap, main.js-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>

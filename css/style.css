@@ -7,6 +7,12 @@
 
 header nav {
 	background-color: #337ab7;
+	opacity:0.5;
+	transition: all 0.3s ease;
+}
+
+header nav:hover {
+	opacity:1;
 }
 
 #logo {
@@ -200,6 +206,7 @@ header nav form {
 }
 
 /*my contact*/
+
 .my-contact-text::after {
 	content: '';
 	display: block;
@@ -207,7 +214,12 @@ header nav form {
 	width: 200px;
 	margin: 30px auto;
 }
-.my-contact-box {
-	max-width: 700px;
-	
+
+
+.my-footer-header::after {
+	content: '';
+	display: block;
+	border: 1px solid #337AB7;
+	width: 100%;
+	margin: 5px 0 20px 0;
 }
