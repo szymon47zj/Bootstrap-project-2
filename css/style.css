@@ -7,12 +7,12 @@
 
 header nav {
 	background-color: #337ab7;
-	opacity:0.5;
+	opacity: 0.5;
 	transition: all 0.3s ease;
 }
 
 header nav:hover {
-	opacity:1;
+	opacity: 1;
 }
 
 #logo {
@@ -81,6 +81,8 @@ header nav form {
 
 .my-mission-icon-background:hover {
 	background-color: rgba(51, 122, 183, 0.2);
+	cursor: pointer;
+	transform: scale(1.05) rotate(360deg);
 }
 
 /*numbers*/
@@ -120,6 +122,16 @@ header nav form {
 	background-position: center;
 	background-size: cover;
 	margin: 5px;
+	transition: all 0.3s ease;
+}
+
+#real1:hover,
+#real2:hover,
+#real3:hover,
+#real4:hover,
+#real5:hover {
+	transform: scale(1.03) rotate(-1deg);
+	cursor: pointer;
 }
 
 #real1 {
@@ -203,6 +215,13 @@ header nav form {
 	width: 150px;
 	height: 150px;
 	object-fit: cover;
+	transition: all 0.3s ease;
+}
+
+.my-team-img:hover {
+	transform: scale(1.1);
+	border: 3px solid #337AB7;
+	cursor: pointer;
 }
 
 /*my contact*/
